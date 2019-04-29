@@ -54,7 +54,7 @@ class NetworkDataInfo {
                                     carrierName = name
                                     print("\(type(of: self)) -> Function: \(#function) -> carrierName is \(carrierName)")
                                 }
-                                var reachabilityConnection: NetworkTrafficName = .none
+                                let reachabilityConnection: NetworkTrafficName = .none
 
 //                                if (ReachabilityManager.shared.reachability.connection == .wifi){
 //                                    reachabilityConnection = .wifi
