@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ATNetworkDataUsage'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ATNetworkDataUsage.'
+  s.version          = '0.0.1'
+  s.summary          = 'ATNetworkDataUsage: Fetch the network data consumption happened for wifi or cellular network'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ATNetworkDataUsage is used to fetch network data consumption for wifi and cellular/mobile networks
                        DESC
 
   s.homepage         = 'https://github.com/ankitthakur/ATNetworkDataUsage'
@@ -42,5 +42,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency  'ReachabilitySwift', '~> 4.3.1'
+  s.dependency  'ReachabilitySwift' #'~> 4.3.1'
 end
