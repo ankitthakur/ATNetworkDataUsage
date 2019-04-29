@@ -1,0 +1,16 @@
+PODS:
+  - ATNetworkDataUsage (0.1.0)
+
+DEPENDENCIES:
+  - ATNetworkDataUsage (from `../`)
+
+EXTERNAL SOURCES:
+  ATNetworkDataUsage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATNetworkDataUsage: fe43356cd857d7396336f412f1d871fb6d2d22b7
+
+PODFILE CHECKSUM: 13bf89ae48dbafff9bb6436f3e22167e848fe874
+
+COCOAPODS: 1.6.0
