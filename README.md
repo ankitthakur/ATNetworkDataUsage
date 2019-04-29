@@ -22,7 +22,7 @@ pod 'ATNetworkDataUsage'
 
 ## Author
 
-ankitthakur, ankit.thakur@promobitech.com
+ankitthakur, ankitthakur85@icloud.com
 
 ## License
 

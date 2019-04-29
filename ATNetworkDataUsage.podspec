@@ -24,7 +24,7 @@ ATNetworkDataUsage is used to fetch network data consumption for wifi and cellul
   s.homepage         = 'https://github.com/ankitthakur/ATNetworkDataUsage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ankitthakur' => 'ankit.thakur@promobitech.com' }
+  s.author           = { 'ankitthakur' => 'ankitthakur85@gmail.com' }
   s.source           = { :git => 'https://github.com/ankitthakur/ATNetworkDataUsage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
