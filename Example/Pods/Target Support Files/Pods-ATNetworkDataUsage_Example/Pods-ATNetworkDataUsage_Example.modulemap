@@ -1,6 +1,0 @@
-framework module Pods_ATNetworkDataUsage_Example {
-  umbrella header "Pods-ATNetworkDataUsage_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

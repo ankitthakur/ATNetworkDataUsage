@@ -29,7 +29,7 @@ ATNetworkDataUsage is used to fetch network data consumption for wifi and cellul
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  s.osx.deployment_target = '10.0'
+  s.osx.deployment_target = '10.10'
   s.swift_version = '5.0'
 
   s.source_files = 'ATNetworkDataUsage/Sources/Common/**/*.{swift, h, m}'
@@ -41,6 +41,6 @@ ATNetworkDataUsage is used to fetch network data consumption for wifi and cellul
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency  'ReachabilitySwift' #'~> 4.3.1'
+  s.frameworks = 'CoreTelephony', 'SystemConfiguration'
+  s.dependency  'ReachabilitySwift', '~> 4.3.1'
 end

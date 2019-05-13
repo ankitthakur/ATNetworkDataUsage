@@ -1,0 +1,6 @@
+framework module Pods_ATNetworkDataUsageMacOSXTests {
+  umbrella header "Pods-ATNetworkDataUsageMacOSXTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

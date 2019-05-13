@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D5EB3EA01D747D6AECFC92 /* Pods_ATNetworkDataUsageMacOSXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA817C1292B22515C177478 /* Pods_ATNetworkDataUsageMacOSXTests.framework */; };
+		9709A3D8228582CB0000CC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709A3D7228582CB0000CC6D /* AppDelegate.swift */; };
+		9709A3DA228582CB0000CC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709A3D9228582CB0000CC6D /* ViewController.swift */; };
+		9709A3DC228582CC0000CC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9709A3DB228582CC0000CC6D /* Assets.xcassets */; };
+		9709A3DF228582CC0000CC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9709A3DD228582CC0000CC6D /* Main.storyboard */; };
+		9709A3EB228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709A3EA228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests.swift */; };
+		9709A3F6228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709A3F5228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests.swift */; };
+		A7C19BBFF14D736650EBE2E1 /* Pods_ATNetworkDataUsageMacOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC9691D20B75153B1FB4C32 /* Pods_ATNetworkDataUsageMacOSX.framework */; };
+		B5EF1A9147D3E3ECCF22A86B /* Pods_ATNetworkDataUsageMacOSXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6E8B919608EF1C84B09B58 /* Pods_ATNetworkDataUsageMacOSXUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9709A3E7228582CC0000CC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9709A3CC228582CB0000CC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9709A3D3228582CB0000CC6D;
+			remoteInfo = ATNetworkDataUsageMacOSX;
+		};
+		9709A3F2228582CC0000CC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9709A3CC228582CB0000CC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9709A3D3228582CB0000CC6D;
+			remoteInfo = ATNetworkDataUsageMacOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9F266AC459C43A8EF9AA6A /* Pods-ATNetworkDataUsageMacOSXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNetworkDataUsageMacOSXUITests.debug.xcconfig"; path = "Target Support Files/Pods-ATNetworkDataUsageMacOSXUITests/Pods-ATNetworkDataUsageMacOSXUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C9EA33C880D12AB7302B204 /* Pods-ATNetworkDataUsageMacOSXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNetworkDataUsageMacOSXUITests.release.xcconfig"; path = "Target Support Files/Pods-ATNetworkDataUsageMacOSXUITests/Pods-ATNetworkDataUsageMacOSXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1DC9691D20B75153B1FB4C32 /* Pods_ATNetworkDataUsageMacOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATNetworkDataUsageMacOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB6D15F26D94D06AE6F9123 /* Pods-ATNetworkDataUsageMacOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNetworkDataUsageMacOSX.debug.xcconfig"; path = "Target Support Files/Pods-ATNetworkDataUsageMacOSX/Pods-ATNetworkDataUsageMacOSX.debug.xcconfig"; sourceTree = "<group>"; };
+		2EA817C1292B22515C177478 /* Pods_ATNetworkDataUsageMacOSXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATNetworkDataUsageMacOSXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E29B27685495BF3237F9DC5 /* Pods-ATNetworkDataUsageMacOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNetworkDataUsageMacOSX.release.xcconfig"; path = "Target Support Files/Pods-ATNetworkDataUsageMacOSX/Pods-ATNetworkDataUsageMacOSX.release.xcconfig"; sourceTree = "<group>"; };
+		8C601B733BE7A73E76BA08A9 /* Pods-ATNetworkDataUsageMacOSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNetworkDataUsageMacOSXTests.debug.xcconfig"; path = "Target Support Files/Pods-ATNetworkDataUsageMacOSXTests/Pods-ATNetworkDataUsageMacOSXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9709A3D4228582CB0000CC6D /* ATNetworkDataUsageMacOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATNetworkDataUsageMacOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9709A3D7228582CB0000CC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9709A3D9228582CB0000CC6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9709A3DB228582CC0000CC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9709A3DE228582CC0000CC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9709A3E0228582CC0000CC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9709A3E1228582CC0000CC6D /* ATNetworkDataUsageMacOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ATNetworkDataUsageMacOSX.entitlements; sourceTree = "<group>"; };
+		9709A3E6228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATNetworkDataUsageMacOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9709A3EA228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATNetworkDataUsageMacOSXTests.swift; sourceTree = "<group>"; };
+		9709A3EC228582CC0000CC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9709A3F1228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATNetworkDataUsageMacOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9709A3F5228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATNetworkDataUsageMacOSXUITests.swift; sourceTree = "<group>"; };
+		9709A3F7228582CC0000CC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6E8B919608EF1C84B09B58 /* Pods_ATNetworkDataUsageMacOSXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATNetworkDataUsageMacOSXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA0722937494EB7530F82B /* Pods-ATNetworkDataUsageMacOSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNetworkDataUsageMacOSXTests.release.xcconfig"; path = "Target Support Files/Pods-ATNetworkDataUsageMacOSXTests/Pods-ATNetworkDataUsageMacOSXTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9709A3D1228582CB0000CC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C19BBFF14D736650EBE2E1 /* Pods_ATNetworkDataUsageMacOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709A3E3228582CC0000CC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D5EB3EA01D747D6AECFC92 /* Pods_ATNetworkDataUsageMacOSXTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709A3EE228582CC0000CC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EF1A9147D3E3ECCF22A86B /* Pods_ATNetworkDataUsageMacOSXUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C955D420C98D84D641BCA9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DC9691D20B75153B1FB4C32 /* Pods_ATNetworkDataUsageMacOSX.framework */,
+				2EA817C1292B22515C177478 /* Pods_ATNetworkDataUsageMacOSXTests.framework */,
+				FC6E8B919608EF1C84B09B58 /* Pods_ATNetworkDataUsageMacOSXUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9709A3CB228582CB0000CC6D = {
+			isa = PBXGroup;
+			children = (
+				9709A3D6228582CB0000CC6D /* ATNetworkDataUsageMacOSX */,
+				9709A3E9228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests */,
+				9709A3F4228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests */,
+				9709A3D5228582CB0000CC6D /* Products */,
+				CBE0045E72F842852A9FE311 /* Pods */,
+				6C955D420C98D84D641BCA9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9709A3D5228582CB0000CC6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9709A3D4228582CB0000CC6D /* ATNetworkDataUsageMacOSX.app */,
+				9709A3E6228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests.xctest */,
+				9709A3F1228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9709A3D6228582CB0000CC6D /* ATNetworkDataUsageMacOSX */ = {
+			isa = PBXGroup;
+			children = (
+				9709A3D7228582CB0000CC6D /* AppDelegate.swift */,
+				9709A3D9228582CB0000CC6D /* ViewController.swift */,
+				9709A3DB228582CC0000CC6D /* Assets.xcassets */,
+				9709A3DD228582CC0000CC6D /* Main.storyboard */,
+				9709A3E0228582CC0000CC6D /* Info.plist */,
+				9709A3E1228582CC0000CC6D /* ATNetworkDataUsageMacOSX.entitlements */,
+			);
+			path = ATNetworkDataUsageMacOSX;
+			sourceTree = "<group>";
+		};
+		9709A3E9228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				9709A3EA228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests.swift */,
+				9709A3EC228582CC0000CC6D /* Info.plist */,
+			);
+			path = ATNetworkDataUsageMacOSXTests;
+			sourceTree = "<group>";
+		};
+		9709A3F4228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9709A3F5228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests.swift */,
+				9709A3F7228582CC0000CC6D /* Info.plist */,
+			);
+			path = ATNetworkDataUsageMacOSXUITests;
+			sourceTree = "<group>";
+		};
+		CBE0045E72F842852A9FE311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CB6D15F26D94D06AE6F9123 /* Pods-ATNetworkDataUsageMacOSX.debug.xcconfig */,
+				4E29B27685495BF3237F9DC5 /* Pods-ATNetworkDataUsageMacOSX.release.xcconfig */,
+				8C601B733BE7A73E76BA08A9 /* Pods-ATNetworkDataUsageMacOSXTests.debug.xcconfig */,
+				FEBA0722937494EB7530F82B /* Pods-ATNetworkDataUsageMacOSXTests.release.xcconfig */,
+				0D9F266AC459C43A8EF9AA6A /* Pods-ATNetworkDataUsageMacOSXUITests.debug.xcconfig */,
+				1C9EA33C880D12AB7302B204 /* Pods-ATNetworkDataUsageMacOSXUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9709A3D3228582CB0000CC6D /* ATNetworkDataUsageMacOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9709A3FA228582CC0000CC6D /* Build configuration list for PBXNativeTarget "ATNetworkDataUsageMacOSX" */;
+			buildPhases = (
+				BEFB9F9958AD5F0D77BFD06A /* [CP] Check Pods Manifest.lock */,
+				9709A3D0228582CB0000CC6D /* Sources */,
+				9709A3D1228582CB0000CC6D /* Frameworks */,
+				9709A3D2228582CB0000CC6D /* Resources */,
+				E10C5AC76C28B0214B93166A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATNetworkDataUsageMacOSX;
+			productName = ATNetworkDataUsageMacOSX;
+			productReference = 9709A3D4228582CB0000CC6D /* ATNetworkDataUsageMacOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9709A3E5228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9709A3FD228582CC0000CC6D /* Build configuration list for PBXNativeTarget "ATNetworkDataUsageMacOSXTests" */;
+			buildPhases = (
+				03DFD3C3178F27B94D3F7CF0 /* [CP] Check Pods Manifest.lock */,
+				9709A3E2228582CC0000CC6D /* Sources */,
+				9709A3E3228582CC0000CC6D /* Frameworks */,
+				9709A3E4228582CC0000CC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9709A3E8228582CC0000CC6D /* PBXTargetDependency */,
+			);
+			name = ATNetworkDataUsageMacOSXTests;
+			productName = ATNetworkDataUsageMacOSXTests;
+			productReference = 9709A3E6228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9709A3F0228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9709A400228582CC0000CC6D /* Build configuration list for PBXNativeTarget "ATNetworkDataUsageMacOSXUITests" */;
+			buildPhases = (
+				76581FA9818CAF11B136F082 /* [CP] Check Pods Manifest.lock */,
+				9709A3ED228582CC0000CC6D /* Sources */,
+				9709A3EE228582CC0000CC6D /* Frameworks */,
+				9709A3EF228582CC0000CC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9709A3F3228582CC0000CC6D /* PBXTargetDependency */,
+			);
+			name = ATNetworkDataUsageMacOSXUITests;
+			productName = ATNetworkDataUsageMacOSXUITests;
+			productReference = 9709A3F1228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9709A3CC228582CB0000CC6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ankit Thakur";
+				TargetAttributes = {
+					9709A3D3228582CB0000CC6D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9709A3E5228582CC0000CC6D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9709A3D3228582CB0000CC6D;
+					};
+					9709A3F0228582CC0000CC6D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9709A3D3228582CB0000CC6D;
+					};
+				};
+			};
+			buildConfigurationList = 9709A3CF228582CB0000CC6D /* Build configuration list for PBXProject "ATNetworkDataUsageMacOSX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9709A3CB228582CB0000CC6D;
+			productRefGroup = 9709A3D5228582CB0000CC6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9709A3D3228582CB0000CC6D /* ATNetworkDataUsageMacOSX */,
+				9709A3E5228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests */,
+				9709A3F0228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9709A3D2228582CB0000CC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9709A3DC228582CC0000CC6D /* Assets.xcassets in Resources */,
+				9709A3DF228582CC0000CC6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709A3E4228582CC0000CC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709A3EF228582CC0000CC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03DFD3C3178F27B94D3F7CF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATNetworkDataUsageMacOSXTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76581FA9818CAF11B136F082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATNetworkDataUsageMacOSXUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEFB9F9958AD5F0D77BFD06A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATNetworkDataUsageMacOSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10C5AC76C28B0214B93166A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ATNetworkDataUsageMacOSX/Pods-ATNetworkDataUsageMacOSX-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ATNetworkDataUsage/ATNetworkDataUsage.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ATNetworkDataUsage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ATNetworkDataUsageMacOSX/Pods-ATNetworkDataUsageMacOSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9709A3D0228582CB0000CC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9709A3DA228582CB0000CC6D /* ViewController.swift in Sources */,
+				9709A3D8228582CB0000CC6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709A3E2228582CC0000CC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9709A3EB228582CC0000CC6D /* ATNetworkDataUsageMacOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709A3ED228582CC0000CC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9709A3F6228582CC0000CC6D /* ATNetworkDataUsageMacOSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9709A3E8228582CC0000CC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9709A3D3228582CB0000CC6D /* ATNetworkDataUsageMacOSX */;
+			targetProxy = 9709A3E7228582CC0000CC6D /* PBXContainerItemProxy */;
+		};
+		9709A3F3228582CC0000CC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9709A3D3228582CB0000CC6D /* ATNetworkDataUsageMacOSX */;
+			targetProxy = 9709A3F2228582CC0000CC6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9709A3DD228582CC0000CC6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9709A3DE228582CC0000CC6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9709A3F8228582CC0000CC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9709A3F9228582CC0000CC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9709A3FB228582CC0000CC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB6D15F26D94D06AE6F9123 /* Pods-ATNetworkDataUsageMacOSX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ATNetworkDataUsageMacOSX/ATNetworkDataUsageMacOSX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7J3EXH6427;
+				INFOPLIST_FILE = ATNetworkDataUsageMacOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakur.networkDataUsage.ATNetworkDataUsageMacOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9709A3FC228582CC0000CC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E29B27685495BF3237F9DC5 /* Pods-ATNetworkDataUsageMacOSX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ATNetworkDataUsageMacOSX/ATNetworkDataUsageMacOSX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7J3EXH6427;
+				INFOPLIST_FILE = ATNetworkDataUsageMacOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakur.networkDataUsage.ATNetworkDataUsageMacOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9709A3FE228582CC0000CC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C601B733BE7A73E76BA08A9 /* Pods-ATNetworkDataUsageMacOSXTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ATNetworkDataUsageMacOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakur.networkDataUsage.ATNetworkDataUsageMacOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATNetworkDataUsageMacOSX.app/Contents/MacOS/ATNetworkDataUsageMacOSX";
+			};
+			name = Debug;
+		};
+		9709A3FF228582CC0000CC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBA0722937494EB7530F82B /* Pods-ATNetworkDataUsageMacOSXTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ATNetworkDataUsageMacOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakur.networkDataUsage.ATNetworkDataUsageMacOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATNetworkDataUsageMacOSX.app/Contents/MacOS/ATNetworkDataUsageMacOSX";
+			};
+			name = Release;
+		};
+		9709A401228582CC0000CC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9F266AC459C43A8EF9AA6A /* Pods-ATNetworkDataUsageMacOSXUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ATNetworkDataUsageMacOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakur.networkDataUsage.ATNetworkDataUsageMacOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ATNetworkDataUsageMacOSX;
+			};
+			name = Debug;
+		};
+		9709A402228582CC0000CC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9EA33C880D12AB7302B204 /* Pods-ATNetworkDataUsageMacOSXUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ATNetworkDataUsageMacOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakur.networkDataUsage.ATNetworkDataUsageMacOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ATNetworkDataUsageMacOSX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9709A3CF228582CB0000CC6D /* Build configuration list for PBXProject "ATNetworkDataUsageMacOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9709A3F8228582CC0000CC6D /* Debug */,
+				9709A3F9228582CC0000CC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9709A3FA228582CC0000CC6D /* Build configuration list for PBXNativeTarget "ATNetworkDataUsageMacOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9709A3FB228582CC0000CC6D /* Debug */,
+				9709A3FC228582CC0000CC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9709A3FD228582CC0000CC6D /* Build configuration list for PBXNativeTarget "ATNetworkDataUsageMacOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9709A3FE228582CC0000CC6D /* Debug */,
+				9709A3FF228582CC0000CC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9709A400228582CC0000CC6D /* Build configuration list for PBXNativeTarget "ATNetworkDataUsageMacOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9709A401228582CC0000CC6D /* Debug */,
+				9709A402228582CC0000CC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9709A3CC228582CB0000CC6D /* Project object */;
+}

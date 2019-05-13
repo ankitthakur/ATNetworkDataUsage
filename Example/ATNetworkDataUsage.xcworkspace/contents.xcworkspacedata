@@ -2,9 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ATNetworkDataUsage.xcodeproj">
+      location = "group:iOS/ATNetworkDataUsageiOS/ATNetworkDataUsageiOS.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:iOS/ATNetworkDataUsageiOS/Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MacOS/ATNetworkDataUsageMacOSX/ATNetworkDataUsageMacOSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MacOS/ATNetworkDataUsageMacOSX/Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

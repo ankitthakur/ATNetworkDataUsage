@@ -1,0 +1,23 @@
+PODS:
+  - ATNetworkDataUsage (0.0.1):
+    - ReachabilitySwift (~> 4.3.1)
+  - ReachabilitySwift (4.3.1)
+
+DEPENDENCIES:
+  - ATNetworkDataUsage (from `../../../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  ATNetworkDataUsage:
+    :path: "../../../"
+
+SPEC CHECKSUMS:
+  ATNetworkDataUsage: fab6cb3ad4a3aa9b2365080b8620f5590d992695
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+
+PODFILE CHECKSUM: 67db746503300b499e8bb597ecbdfec336286596
+
+COCOAPODS: 1.6.1

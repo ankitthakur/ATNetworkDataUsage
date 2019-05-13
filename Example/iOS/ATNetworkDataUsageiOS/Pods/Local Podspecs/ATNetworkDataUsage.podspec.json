@@ -1,0 +1,39 @@
+{
+  "name": "ATNetworkDataUsage",
+  "version": "0.0.1",
+  "summary": "ATNetworkDataUsage: Fetch the network data consumption happened for wifi or cellular network",
+  "description": "ATNetworkDataUsage is used to fetch network data consumption for wifi and cellular/mobile networks",
+  "homepage": "https://github.com/ankitthakur/ATNetworkDataUsage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ankitthakur": "ankitthakur85@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ankitthakur/ATNetworkDataUsage.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0",
+    "osx": "10.10"
+  },
+  "swift_version": "5.0",
+  "source_files": "ATNetworkDataUsage/Sources/Common/**/*.{swift, h, m}",
+  "ios": {
+    "source_files": "ATNetworkDataUsage/Sources/iOS/**/*.{swift, h, m}"
+  },
+  "osx": {
+    "source_files": "ATNetworkDataUsage/Sources/OSX/**/*.{swift, h, m}"
+  },
+  "frameworks": [
+    "CoreTelephony",
+    "SystemConfiguration"
+  ],
+  "dependencies": {
+    "ReachabilitySwift": [
+      "~> 4.3.1"
+    ]
+  }
+}

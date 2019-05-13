@@ -7,11 +7,18 @@
 
 import Foundation
 import CoreTelephony
+
+#if os(iOS)
 import SystemConfiguration.CaptiveNetwork
+#elseif os(macOS) || os(OSX)
+import CoreWLAN
+#endif
 
-class NetworkDataInfo {
 
-    static func networkInfo() -> [NetworkTraffic] {
+
+public class NetworkDataInfo {
+
+    public static func networkInfo() -> [NetworkTraffic] {
 
         var ifaddr: UnsafeMutablePointer<ifaddrs>?
         var networkTraffics: [NetworkTraffic] = []
@@ -23,7 +30,7 @@ class NetworkDataInfo {
                 var networkTraffic = NetworkTraffic()
                 var trafficName: NetworkTrafficName = .none
                 var ssid: String = ""
-                var carrierName: String = ""
+                let carrierName: String = ""
 
                 let flags = Int32((ptr?.pointee.ifa_flags)!)
                 let  addr = ptr?.pointee.ifa_addr.pointee
@@ -38,7 +45,7 @@ class NetworkDataInfo {
                         networkData  = unsafeBitCast(ptr!.pointee.ifa_data,
                                                      to: UnsafeMutablePointer<if_data>.self)
                         print("\(type(of: self)) -> Function: \(#function) -> ifname prefix is \(ifname)")
-//                        print("\(type(of: self)) -> Function: \(#function) -> Reachability connection is \(ReachabilityManager.shared.reachability.connection)")
+                        //                        print("\(type(of: self)) -> Function: \(#function) -> Reachability connection is \(ReachabilityManager.shared.reachability.connection)")
 
 
                         if ifname.hasPrefix(NetworkInterface.prefixWifi) ||
@@ -50,18 +57,22 @@ class NetworkDataInfo {
 
                                 trafficName = NetworkTrafficName(rawValue: ifname) ?? .none
                                 ssid = getWiFiSsid() ?? ""
+
+                                #if os(iOS)
                                 if let name = CTTelephonyNetworkInfo().subscriberCellularProvider?.carrierName {
                                     carrierName = name
                                     print("\(type(of: self)) -> Function: \(#function) -> carrierName is \(carrierName)")
                                 }
-                                let reachabilityConnection: NetworkTrafficName = .none
+                                #endif
 
-//                                if (ReachabilityManager.shared.reachability.connection == .wifi){
-//                                    reachabilityConnection = .wifi
-//                                }
-//                                else if (ReachabilityManager.shared.reachability.connection == .cellular){
-//                                    reachabilityConnection = .mobile
-//                                }
+                                var reachabilityConnection: NetworkTrafficName = .none
+
+                                if (ReachabilityManager.shared.reachability.connection == .wifi){
+                                    reachabilityConnection = .wifi
+                                }
+                                else if (ReachabilityManager.shared.reachability.connection == .cellular){
+                                    reachabilityConnection = .mobile
+                                }
 
                                 networkTraffic.updateInfo(name: trafficName,
                                                           recieved: Double(networkData.pointee.ifi_ibytes),
@@ -87,6 +98,7 @@ class NetworkDataInfo {
 
     private static func getWiFiSsid() -> String? {
         var ssid: String?
+        #if os(iOS)
         let interfaces = CNCopySupportedInterfaces()
         if interfaces != nil {
             if let interfaceArray = interfaces as? [String] {
@@ -101,6 +113,16 @@ class NetworkDataInfo {
                 }
             }
         }
+        #elseif os(macOS) || os(OSX)
+
+        if let interfaces = CWWiFiClient.shared().interfaces() {
+            if interfaces.count > 0 {
+                if let interface = interfaces.first {
+                    ssid = interface.bssid() 
+                }
+            }
+        }
+        #endif
         return ssid
     }
 }
